@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+   </style>
+</head>
+<body>
+  </div>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="bio.html">Bio</a>
+    <a href="contacts.html">Contact</a>
+    <a href="https://www.facebook.com/nkanyeziyamamiya.nkente"> <img src="facebook.png" alt="facebook" class="center" width="40px" height="40px"></a>
+      <a href="https://www.instagram.com/bongi898/?hl=en"><img src="instagram.png" alt="instagram" class="center" width="40px" height="40px"></a>
+  </div>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+        <h1>ABOUT ME</h1>
+
+          
+
+        <p><br>My name is SIBONGILE NKENTE i am 22 years old.<br> I was born in the gauteng province but i'm original from the eastern cape province  in butterworth in a small village called "ndenxe".<br> that's where my roots are coming from ,that's where i come from.<br><br></p>
+         <div class="header">
+       <img src="zee.jpg" alt='studio' class="left" width="300px" height="200px">
+       <p> I am a people's person, most importantly i love my family they are the one who always push me to do good,They are the reason i'm here today.<br> My family is the best I thank god for them , they courage and empower<br> </p>
+          <img src="zee.jpg" alt='studio' class="left" width="300px" height="150px">
+
+          <h1><P> MY GOAL</P></h1>
+        <p>
+          <strong><br> My goal is  to finish school one day so that i will be able  to improve my starndard of living and of others .<br> My main goal is to make a change in my own community espcialy in the rural areas so that the children who growing up can have something to look up to when they finish school .<br>.<br> <br></strong> </p>
+     
+                 <p> EDUCATION</p>
+
+                 <P> I started school in i saac makau primary school ,that is where i fell in love and grew passion in technology or the digital world . I was given a plartform to do art and that's where i saw my self going places.<br>
+                   I went to cunningham senior secondary school  it is in the EASTERN CAPE province in BUTTERWORTH the school is situated in a village called "tholeni" i was doing, maths,economics,business studies and accounting, that where  i passed my matric in 2018 with a bachelor.</P>
+
+          <img src="prince.jpg" alt='me' class="left" width="300px" height="170px">
+           <p>Deputy Minister Stella Ndabeni-Abrahams visits Cunningham Senior Secondary School on a Back-To-School Campaign, 29 Jan 2016.<br> The deputy minister told us about the importance of education and how it can change our live.<br>She motivated us to do our best, and by giving some of our leaner busaries, that was the happiest day for our school.<br></p>
+
+          <img src="phura.jpg" alt='me' class="left" width="300px" height="170px">
+          <p> A learner from Cunningham Senior Secondary School recites a poem during the Deputy Minister’s visits at their school.<br> I was that leaner who did the poem, that was my way of saying thankyou to the Deputy Minister Mrs Stella Ndabeni-Abrahams.<br>  </p>
+          <img src="suks.jpg" alt='me' class="left" width="300px" height="170px">
+          <P>Cunningham Senior Secondary School
+            Cunningham Senior Secondary School is a public state secondary school located at Toleni, Butterworth, 4960, Eastern Cape Province, South Africa. The school's EMIS number is 200300053 and postal address is P.O.Box 892, Butterworth, 4960</P>
+        
+        
+     
+     
+     
+     
+        </div>  
+
+        
+        
+        
+<script>
+
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+
+</script>
+     
+
+     <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
+</body>
+</html>

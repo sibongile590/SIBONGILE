@@ -1,15 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Add the style.css to this html doc -->
-<link rel="stylesheet" href="style.css">
-    <title>My first HTML</title>
-</head>
-<body style="background-color: wheat;">
-    <h1 style="color: blue;">Hello World</h1>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<style></style>
+</style>
+</head>
+<body>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="bio.html">Bio</a>
+    <a href="contacts.html">Contact</a>
+    <a href="https://www.facebook.com/nkanyeziyamamiya.nkente"><img src="facebook.png" alt="facebook" class="center" width="40px" height="40px"></a>
+      <a href="https://www.instagram.com/bongi898/?hl=en"><img src="instagram.png" alt="instagram" class="center" width="40px" height="40px"></a>
+     </div>/a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<div class="title">
+<h1>Home</h1>
+<p> WELCOME TO MY PORTFOLIO!!!!</p>
+</div>
+
+<h2><p> - Sibongile Nkente  </p></h2>
+<div class="header">
+  <p >I LIVE TO INPIRE !! I LIVE TO SERVE.!</p>
+   <p> BE YOUR OWN INSPIRATION !!</p>
+
+ <video controls>
+    <source src="bongi vid1.mp4" alt='studio' class="center-left" width="300px" height="300px">
+  </video>
+  
+
+  <div class="culim" style="float: left; width: 50%; height: 50px padding: 5px; color: black; font-size: 22px; text-align:justify">
+    <ul>
+  <img src="gcwa.jpg" alt='me' class="center" width="300px" height="200px">
+  <h1><p>WELOCOME TO ART AND DESIGN BY S.NKENTE</p></h1>
+  <p>" your situation is not your permanent destination"</p>
+  
+  
+ 
+
+</div>
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     
 </body>
 </html>

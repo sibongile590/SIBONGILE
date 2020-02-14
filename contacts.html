@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+<title>CONTACTS</title>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <h1> BONGI'S POET STUDIO></h1>>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="bio.html">Bio</a>
+    <a href="contacts.html">Contact</a>
+    <a href="https://www.facebook.com/nkanyeziyamamiya.nkente"><img src="facebook.png" alt="facebook" class="center" width="40px" height="40px"></a>
+      <a href="https://www.instagram.com/bongi898/?hl=en"><img src="instagram.png" alt="instagram" class="center" width="40px" height="40px"></a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+
+<div class='contacts_form'>
+  <h2>Contact Form</h2>
+  <form action="mailto:sibongilenkente@gmail.com" method="post" enctyp="text/plain">
+ <form class="">
+          Firstname:<br>
+               <input type="text" name="firstname" placeholder="firstname"><br><br>
+
+               Lastname:<br>
+                   <input type="text" name="lastname" placeholder="lastname"><br><br>
+
+                   Email Address:<br>
+                       <input type="text" name="email" placeholder="Email Address"><br><br>
+
+                    Phone Number:<br>
+                        <input type="text" name="phone" placeholder="Phone Number"><br><br>
+                        
+                        
+                        Subject:<br>
+                    <textarea id="subject" name="subject" placeholder="write something. ."style=" height: 50px"></textarea><br><br>
+                    <div class="g-recaptcha" data-sitekey="6LefiNgUAAAAAN7fSYxyYd_KToL3AmkOqHJtvQ7-"></div>
+                <br/>
+     <input type="submit" value="submit">
+
+
+        </form>
+      </div>
+
+        <div class='footer'>
+
+          <p> &#9743; cell: 0633315213 / 0651738402</p>
+          <p>Adress: Y104 Xapile Crescent<br> Khayelitsha, 7784</p>
+          <p> Email: <sibongilenkente@gmail class="com"></p>
+        </div>
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     
+</body>
+</html>
